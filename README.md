@@ -75,3 +75,15 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ## Configurar o bash
 1. Rodar o comando `vim ~/.bashrc` no hyper
 2. Substituir pelo arquivo .bashrc [aqui](https://github.com/anapaulalemos/environment-config/blob/master/.bashrc)
+
+## Criando as chaves SSH
+1. Abrir o Hyper
+2. Rodar o comando `ssh-keygen -t rsa -b 4096 -C "adicione_seu_email@aqui.com"`
+3. Seguir as instruções em tela
+4. Após gerar a chave, adicioná-la ao agente SSH com os seguintes comandos:
+    `$ eval $(ssh-agent -s)`
+    `$ ssh-add ~/.ssh/id_rsa`
+5. Exibir a chave com o comando `cat ~/.ssh/id_rsa.pub` e copiá-las do terminal
+6. Colar nos repositórios:
+    * [Powerhub](https://way2.visualstudio.com/_usersSettings/keys)
+    * [Line](https://gitlab.com/-/profile/keys)
