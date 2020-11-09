@@ -68,12 +68,12 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ```
 
 ## Configurar o Oh My Zsh
-1. Rodar o comando `vim ~/.zshrc` no hyper
+1. Rodar o comando `code ~/.zshrc` no hyper
 2. Substituir pelo arquivo .zshrc [aqui](https://github.com/anapaulalemos/environment-config/blob/master/.zshrc).
 3. Importante lembrar de trocar os paths do arquivo para o correto (todos arquivos com '__ana.lemos__' no path)
 
 ## Configurar o bash
-1. Rodar o comando `vim ~/.bashrc` no hyper
+1. Rodar o comando `code ~/.bashrc` no hyper
 2. Substituir pelo arquivo .bashrc [aqui](https://github.com/anapaulalemos/environment-config/blob/master/.bashrc)
 
 ## Criando as chaves SSH
