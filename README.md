@@ -27,7 +27,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 1. [Instalar o Hyper](https://hyper.is/)
 2. Com o Hyper aberto, digitar ```ctrl + comma``` pra abrir as configurações
-3. O arquivo editado configurado pode ser encontrado [aqui](https://github.com/anapaulalemos/environment-config/blob/master/hyper.js).
+3. O arquivo editado configurado pode ser encontrado [aqui](https://github.com/isaiasbfranca/environment-config/blob/master/hyper.js).
 
 ## Instalar o cURL e o Git
 1. Para o cURL usamos 
@@ -69,12 +69,12 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 ## Configurar o Oh My Zsh
 1. Rodar o comando `code ~/.zshrc` no hyper
-2. Substituir pelo arquivo .zshrc [aqui](https://github.com/anapaulalemos/environment-config/blob/master/.zshrc).
-3. Importante lembrar de trocar os paths do arquivo para o correto (todos arquivos com '__ana.lemos__' no path)
+2. Substituir pelo arquivo .zshrc [aqui](https://github.com/isaiasbfranca/environment-config/blob/master/.zshrc).
+3. Importante lembrar de trocar os paths do arquivo para o correto (todos arquivos com '__isaias.batista__' no path)
 
 ## Configurar o bash
 1. Rodar o comando `code ~/.bashrc` no hyper
-2. Substituir pelo arquivo .bashrc [aqui](https://github.com/anapaulalemos/environment-config/blob/master/.bashrc)
+2. Substituir pelo arquivo .bashrc [aqui](https://github.com/isaiasbfranca/environment-config/blob/master/.bashrc)
 
 ## Criando as chaves SSH
 1. Abrir o Hyper

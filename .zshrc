@@ -6,7 +6,7 @@ unsetopt LIST_BEEP
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-export ZSH=/home/analemos/.oh-my-zsh 
+export ZSH=/home/isaiasbatista/.oh-my-zsh 
 
 #Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -97,8 +97,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-fpath=($fpath "/home/analemos/.zfunctions")
-alias powerhubdev="cd /mnt/c/Users/ana.lemos/Desktop/Way2Consumers/Way2Consumer/wwwroot; export ASPNETCORE_ENVIRONMENT=Development; npm start"
+fpath=($fpath "/home/isaiasbatista/.zfunctions")
+alias powerhubdev="cd /mnt/c/Users/isaias.batista/Desktop/Way2Consumers/Way2Consumer/wwwroot; export ASPNETCORE_ENVIRONMENT=Development; npm start"
 
 if [ -z "$SSH_AUTH_SOCK" ] ; then
   eval `ssh-agent -s`
